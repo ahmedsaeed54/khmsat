@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    height: 4000px;;
+} */
+body section div{
+    transition: all .5s ease;
+}
+body nav div{
+    transition: all .5s ease;
+}
+
+body div:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+    height: 500px;
+    
+}
+.backg div{
+    
+    text-align: center;
+    margin-top: 200px;
+    font-size: 30px;
+    height: 300px;
+    margin-bottom: 400px;
+}
+.backg div .form{
+    
+    position: relative;
+    width: 700px;
+    height: 60px;
+    margin: auto;
+    background-color: white;
+}
+
+.backg div .form input{
+    position: absolute;
+    left: 8px;
+    border: none;
+    width: 600px;
+    height: 60px;
+    font-size: x-large;
+}
+.backg div .form input:focus{
+   outline-style: none  ;
+}
+.backg div .form button{
+    position: absolute;
+    right: 10px;
+    top: 13px;
+    font-size: 25px;
+    background-color: green;
+    padding: 4px;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+nav{
+    background-color:rgba(53, 51, 51, 0.91);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+nav div{
+    height: 27px;
+    margin: 70px;
+   
+    
+}
+nav div a{
+    margin: 15px;
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+nav div a:hover{
+    background-color: bisque;
+}
+header{
+    /* margin-top: 50px; */
+    text-align:center;
+    color: blue;
+    font-style: oblique;
+}
+
+img{
+    width:200px;
+    height: 200px; 
+}
+.sec1{
+    
+    margin-top: 100px;
+    display:flex ;
+    justify-content: space-around;
+    height: 200px;
+    margin-bottom: 70px;
+}
+.sec1 div{
+    
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    position: relative;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    transition:  .5s ease;
+}
+.sec1 div:hover{
+    transform: scale(1.1);
+}
+
+.sec1 div img{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+   
+}
+
+
+.sec2{
+    
+    display:flex ;
+    justify-content: space-around;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.sec2 div{
+    
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: xx-large;
+
+}
+.sec2 div img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.s1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+
+}
+.s1 div a{
+    border: 2px solid green;
+    font-size: x-large;
+    background-color: beige;
+    text-decoration: none;
+    font-style: oblique;
+    padding: 5px;
+    margin: 30px;
+}
+.s2{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    height: 10;
+    margin-bottom: 30px;
+}
+.s2 div{
+    
+    width: 100%;
+    height:90% ;
+    margin: 20px;
+    color: black;
+    font-size: x-large;
+}
+.s2 div img{
+    width: 100%;
+    height: 200px;
+}
+
+footer a {
+    text-decoration: none;
+
+}
+.comm h1{
+    text-align: center;
+    font-size: xx-large;
+}
+.comm{
+    background-color: grey;
+    margin: 10px;
+}
+.comm details{
+    
+    margin-left: 300px ;
+   
+}
+.comm details p{
+    font-size: xx-large;
+    font-style: oblique;
+    background-color: rgb(250, 230, 215);
+}
+.comm details summary{
+    margin-right: 300px;
+    font-size: xx-large;
+    background-color: aqua;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 1px 1px green;
+}
+.list{
+    background-color: rgb(215, 250, 221);
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+.list ul{
+    list-style-type: none;
+}
+.un {
+    background-color: antiquewhite;
+    margin: 60px;
+    display: flex;
+    justify-content: space-around;
+    font-size: xx-large;
+}
+.un ul{
+    list-style-type: none;
+}
